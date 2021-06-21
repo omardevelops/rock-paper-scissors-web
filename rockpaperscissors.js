@@ -102,4 +102,4 @@ function game() {
 }
 
 // Runs the game
-window.alert(game());
+//window.alert(game());

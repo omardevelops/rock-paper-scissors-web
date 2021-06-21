@@ -1,0 +1,22 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3B3355;
+    color: #FEFCFD;
+}
+
+#buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    font-size: 24px;
+    /*border: none;*/
+    border-radius: 5px;
+    width: 9em;
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
+}

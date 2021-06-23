@@ -1,6 +1,7 @@
 // Rock Paper Scissors
 // 1. CPU player, returns either 'Rock', 'Paper', or 'Scissors', randomly.
 // 2. Human player input, should be read from the console
+
 // 3. Function that takes two inputs, and returns the winner
 console.log("Hello World");
 
@@ -100,6 +101,10 @@ function game() {
     }
 
 }
+
+// Body
+const titleText = document.querySelector('#logo');
+//titleText.classList.add('loseStateText');
 
 // Runs the game
 //window.alert(game());

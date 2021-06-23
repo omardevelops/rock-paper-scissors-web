@@ -16,7 +16,6 @@ h1:hover {
 #score_container {
     margin-top: 5%;
     margin-bottom: 5%;
-    display: none;
 }
 
 #buttons_container {
@@ -41,10 +40,22 @@ button {
     /* box-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.246); */
 }
 
-button:hover {
-    background-color: #e22f3e;
+.selection:hover, .selection:focus-visible {
+    background-color: #c02b55;
     transition: 0.1s;
     color: white;
+}
+
+.clicked {
+    background-color: #2bc087;
+}
+
+.winStateText {
+    color: #0c9635;
+}
+
+.loseStateText {
+    color: #960c1e;
 }
 
 #logo {

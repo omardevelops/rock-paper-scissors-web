@@ -1,20 +1,50 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #3B3355;
-    color: #FEFCFD;
+    background-color: #F7F4F3;
+    color: #161413;
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1:hover {
+    
+}
+
+#score_container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
 }
 
 #buttons_container {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 button {
-    font-size: 24px;
-    /*border: none;*/
-    border-radius: 5px;
-    width: 9em;
+    font-size: 32px;
+    border: none;
+    border-radius: 15px;
+    width: 25%;
+    height: 5em;
+    margin-right: 10px;
     text-align: center;
+    transition: 0.1s;
+    background-color: #5B2333;
+    color: whitesmoke;
+    /* box-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.246); */
+}
+
+button:hover {
+    background-color: #e22f3e;
+    transition: 0.1s;
+    color: white;
 }
 
 #logo {
